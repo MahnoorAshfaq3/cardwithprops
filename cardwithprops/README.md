@@ -1,16 +1,75 @@
-# React + Vite
+📌 Profile Card – React Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and reusable Profile Card UI built using React.
+This project demonstrates the use of props, components, and basic styling to create a clean user profile card.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Reusable Profile Card component
 
-## React Compiler
+Uses props to pass dynamic data
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Displays:
 
-## Expanding the ESLint configuration
+Profile image
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Name & location
+
+Bio
+
+Action buttons
+
+Skills list
+
+Clean & modern dark UI
+
+Beginner-friendly React structure
+
+🛠️ Technologies Used
+
+React JS
+
+JavaScript (ES6)
+
+CSS
+
+📂 Project Structure
+src/
+│── App.jsx
+│── ProfileCard.jsx
+│── App.css
+
+▶️ How to Run the Project
+
+Clone the repository
+
+git clone <your-repo-link>
+
+
+Install dependencies
+
+npm install
+
+
+Start the development server
+
+npm run dev
+
+🧠 Learning Outcome
+
+Understanding props in React
+
+Passing objects & arrays as props
+
+Creating reusable UI components
+
+Using .map() to render lists
+
+📸 Preview
+
+A modern profile card showing user details and skills in a clean UI.
+
+🤝 Feedback
+
+Suggestions and feedback are always welcome!
+Feel free to fork this project and improve it.
